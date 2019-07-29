@@ -1,0 +1,12 @@
+diff --git a/android/app/build.gradle b/android/app/build.gradle
+index 134a170..c905647 100644
+--- a/android/app/build.gradle
++++ b/android/app/build.gradle
+@@ -74,7 +74,6 @@ import com.android.build.OutputFile
+ 
+ project.ext.react = [
+     bundleCommand: "ram-bundle",
+-    extraPackagerArgs: ["--indexed-ram-bundle"],
+     entryFile: "index.js"
+ ]
+ 
